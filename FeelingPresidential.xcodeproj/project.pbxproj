@@ -12,6 +12,7 @@
 		B496EE971E25B12B0008D1C7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B496EE951E25B12B0008D1C7 /* Main.storyboard */; };
 		B496EE991E25B12B0008D1C7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B496EE981E25B12B0008D1C7 /* Assets.xcassets */; };
 		B496EE9C1E25B12B0008D1C7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B496EE9A1E25B12B0008D1C7 /* LaunchScreen.storyboard */; };
+		B496EEA41E25B1CA0008D1C7 /* FactProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = B496EEA31E25B1CA0008D1C7 /* FactProvider.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		B496EE981E25B12B0008D1C7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B496EE9B1E25B12B0008D1C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B496EE9D1E25B12B0008D1C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B496EEA31E25B1CA0008D1C7 /* FactProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FactProvider.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				B496EE911E25B12B0008D1C7 /* AppDelegate.swift */,
 				B496EE931E25B12B0008D1C7 /* ViewController.swift */,
 				B496EE951E25B12B0008D1C7 /* Main.storyboard */,
+				B496EEA31E25B1CA0008D1C7 /* FactProvider.swift */,
 				B496EE981E25B12B0008D1C7 /* Assets.xcassets */,
 				B496EE9A1E25B12B0008D1C7 /* LaunchScreen.storyboard */,
 				B496EE9D1E25B12B0008D1C7 /* Info.plist */,
@@ -139,6 +142,7 @@
 			files = (
 				B496EE941E25B12B0008D1C7 /* ViewController.swift in Sources */,
 				B496EE921E25B12B0008D1C7 /* AppDelegate.swift in Sources */,
+				B496EEA41E25B1CA0008D1C7 /* FactProvider.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,6 +304,7 @@
 				B496EEA21E25B12B0008D1C7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
