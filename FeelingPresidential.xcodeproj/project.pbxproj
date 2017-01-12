@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B4596B321E26F626005B6D8C /* facts.txt in Resources */ = {isa = PBXBuildFile; fileRef = B4596B311E26F626005B6D8C /* facts.txt */; };
+		B4596B341E27023B005B6D8C /* BackgroundColorChanger.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4596B331E27023B005B6D8C /* BackgroundColorChanger.swift */; };
 		B496EE921E25B12B0008D1C7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B496EE911E25B12B0008D1C7 /* AppDelegate.swift */; };
 		B496EE941E25B12B0008D1C7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B496EE931E25B12B0008D1C7 /* ViewController.swift */; };
 		B496EE971E25B12B0008D1C7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B496EE951E25B12B0008D1C7 /* Main.storyboard */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B4596B311E26F626005B6D8C /* facts.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = facts.txt; sourceTree = "<group>"; };
+		B4596B331E27023B005B6D8C /* BackgroundColorChanger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackgroundColorChanger.swift; sourceTree = "<group>"; };
 		B496EE8E1E25B12B0008D1C7 /* FeelingPresidential.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FeelingPresidential.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B496EE911E25B12B0008D1C7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B496EE931E25B12B0008D1C7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -63,6 +67,8 @@
 				B496EE981E25B12B0008D1C7 /* Assets.xcassets */,
 				B496EE9A1E25B12B0008D1C7 /* LaunchScreen.storyboard */,
 				B496EE9D1E25B12B0008D1C7 /* Info.plist */,
+				B4596B311E26F626005B6D8C /* facts.txt */,
+				B4596B331E27023B005B6D8C /* BackgroundColorChanger.swift */,
 			);
 			path = FeelingPresidential;
 			sourceTree = "<group>";
@@ -127,6 +133,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B4596B321E26F626005B6D8C /* facts.txt in Resources */,
 				B496EE9C1E25B12B0008D1C7 /* LaunchScreen.storyboard in Resources */,
 				B496EE991E25B12B0008D1C7 /* Assets.xcassets in Resources */,
 				B496EE971E25B12B0008D1C7 /* Main.storyboard in Resources */,
@@ -142,6 +149,7 @@
 			files = (
 				B496EE941E25B12B0008D1C7 /* ViewController.swift in Sources */,
 				B496EE921E25B12B0008D1C7 /* AppDelegate.swift in Sources */,
+				B4596B341E27023B005B6D8C /* BackgroundColorChanger.swift in Sources */,
 				B496EEA41E25B1CA0008D1C7 /* FactProvider.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

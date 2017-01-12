@@ -10,9 +10,16 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var factLabel: UILabel!
+    @IBOutlet weak var factButton: UIButton!
+    
+    let factProvider = FactProvider()
+    let colorChanger = BackgroundColorChanger()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+       
+        factLabel.text = factProvider.getRandomFact()
     }
 
     override func didReceiveMemoryWarning() {
@@ -20,6 +27,12 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    @IBAction func showFact() {
+        factLabel.text = factProvider.getRandomFact()
+        let randomColor = colorChanger.setRandomColor()
+        view.backgroundColor = randomColor
+        factButton.tintColor = randomColor // Label text is the same color as background text
+    }
 
 }
 
